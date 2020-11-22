@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>middlePage</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script>
+        $(function (){
+            setTimeout(function (){
+                location.href="index.html";
+            },3000)
+        });
+    </script>
+    <style>
+        .style1{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body background="picture/a.jpg">
+<h1>操作失败，可能的原因：</h1>
+<h2 class="style1">1.您要操作(删除，检索，粘贴)的目录不存在</h2>
+<h2 class="style1">2.未检索到包含您查找内容的文件/文件夹</h2>
+
+<br>
+<h1>3秒后跳转<a href="index.html">首页</a>。</h1>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+utils\Methods.class
+web\servlet\DeleteFoldersServlet.class
+web\servlet\SearchAndCopyServlet.class

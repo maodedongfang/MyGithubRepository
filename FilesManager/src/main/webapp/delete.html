@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>searchFiles</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style>
+
+        .table1{
+            margin-top: 30px;
+            border: midnightblue solid 5px;
+            width: 600px;
+        }
+        .td1{
+            border: darkslategray solid 2px;
+            font-size: 30px;
+            height: 35px;
+        }
+        .input1{
+            height: 30px;
+            margin-bottom: 8px;
+        }
+        .td2{
+            border: darkslategray solid 2px;
+            height: 35px;
+        }
+        .input2{
+            border: darkslategray solid 2px;
+            width: 500px;
+            height: 30px;
+            margin-top: 2px;
+        }
+        .title1{
+            padding-left: 200px;
+        }
+
+
+    </style>
+</head>
+<body background="picture/a.jpg">
+<h1 class="title1">删除文件夹</h1>
+<form action="deleteFolder" method="post">
+
+    <table class="table1">
+
+        <tr >
+
+            <td class="td1">
+                <label for="goalFolder"><div align="center">删除哪个文件夹：</div></label>
+            </td>
+
+            <td class="td1" align="center">
+                <input height="30px" type="text"  class="input1" id="goalFolder" name="goalFolder"  placeholder="拷贝该文件夹路径粘贴至此">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td colspan="2" class="td2" align="center">
+                <input type="submit" class="input2" value="提交">
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+
+</body>
+</html>
